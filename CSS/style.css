@@ -1,0 +1,296 @@
+@font-face {
+  font-family: pt-serif;
+  src: url(../fonts/pt-serif_regular.ttf);
+}
+@font-face {
+  font-family:montserrat ;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+:root{
+  --space:15px;
+  --rose:#D47479;
+  --blue:#181a26;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+}
+body,p,h1,h2,h3,ul,ol{
+  margin: 0;
+  padding: 0;
+}
+.automotive {
+width: 1200px;
+margin: 0 auto;
+
+}
+.background__header{
+  background-image: url(../img/Снимок\ экрана\ 2023-04-20\ 183115.png);
+  background-size: cover;
+}
+.container__automotive1 {
+margin: 0 auto;
+width: 1010px;
+}
+.header__automotive {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+ margin-bottom: 80px;
+}
+.header__automotive_title {
+  color:var(--rose) ;
+  font-family:montserrat ;
+  text-transform: uppercase;
+  font-size: 40px;
+ 
+}
+.nav {
+display: flex;
+justify-content: flex-end;
+}
+.nav li{
+  list-style: none;
+}
+.nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-family:montserrat;
+  text-transform: uppercase;
+  padding: 6px 10px;
+}
+
+.nav li a:hover{
+border: 1px solid #fff;
+background-color: #fff;
+color: #000;
+border-radius: 5px;
+
+}
+.row-6{
+  width: calc(50% - var(--space));
+}
+ .nav{
+  justify-content: center;
+ }
+ .header__automotive_title{
+  text-align: center;
+ }
+.online {
+color: #ffffff;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.lichnyi {
+color: var(--rose);
+  font-family:sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 120px;
+}
+.uge {
+  color: #fff;
+  font-family:montserrat ;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 800px;
+  text-align: left;
+  padding-bottom: 80px;
+}
+.text__automotive_white {
+  width: 1010px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.trenerovka {
+display: flex;
+justify-content: center;
+margin-bottom: 80px;
+padding-top: 60px;
+}
+.trenerovka1 {
+margin-right: 10px;
+font-family:montserrat;
+font-size: 40px;
+text-transform: uppercase;
+}
+.trenerovka2 {
+  font-family:pt-serif;
+  font-size: 40px;
+  color: var(--rose);
+}
+.icon__white {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.icon {
+text-align: center;
+}
+.icon .fa {
+font-size: 120px;
+color: var(--rose);
+margin-bottom: 40px;
+transition: transform 0.3s;
+}
+.icon .fa:hover{
+  transform: scale(1.2);
+}
+.text_white {
+  color:#000000;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.container__automotive3 {
+width: 1010px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.automotive__blue{
+  background-color: var(--blue);
+  padding: 30px 0;
+  margin-bottom: 90px;
+}
+.free {
+color:#fff;
+font-family:montserrat;
+margin-right: 80px;
+font-size: 18px;
+text-align: left;
+}
+.poprobuy {
+padding: 20px;
+border-radius: 5px;
+background-color: var(--rose);
+color: #fff;
+font-size: 18px;
+transition: transform 0.3s;
+}
+.poprobuy:hover{
+  transform: scale(1.2);
+}
+.container__automotive4 {
+  width: 1010px;
+  margin: 0 auto;
+}
+.title_card {
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 70px;
+  color: var(--blue);
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.card__flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.card__block {
+  text-align: center;
+  width: 300px;
+  background-color: #FFE4E1;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.card__block:hover{
+  transform: scale(1.2);
+}
+.start {
+  font-family: pt-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 50px;
+
+}
+.rub{
+  font-family:montserrat;
+  font-size: 50px;
+  color:var(--rose);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.podbor>li {
+  list-style: none;
+  font-size: 18px;
+font-family:sans-serif;
+font-style: italic;
+line-height:32px;
+
+}
+.btn_card{
+border: none;
+background-color: var(--rose);
+color: #fff;
+width: 90px;
+padding: 7px 0;
+border-radius: 5px;
+margin: 30px 0;
+}
+.automotive__blue2 {
+  background-color: var(--blue);
+  padding: 60px 0; 
+}
+.container__automotive5 {
+margin: 0 auto;
+width: 1010px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.adress {
+  color: #ffffff;
+  font-family:montserrat ;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.logo {
+  color: var(--rose);
+  font-family:montserrat ;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+@media screen and (max-width:576px){
+  .container__automotive{
+  max-width: 100%;
+ }
+ .row-3{
+  width: calc(50% - 60px); 
+  margin-bottom: 50px;
+ }
+ .row-4{
+  width: calc(100% - var(--space)); 
+  margin-bottom: 20px;
+ }
+ .podbor>li{
+  font-size: 40px;
+  line-height: 60px;
+ }
+ .btn_card{
+  width: 190px;
+  font-size: 30px;
+ }
+ .start{
+  font-size: 43px;
+ }
+ .rub{
+  font-size: 100px;
+ }
+ .row-6{
+  width: calc(100% - var(--space)); 
+  margin-bottom: 30px;
+}
+.row-12{
+  width: calc(100% - var(--space)); 
+}}
+
